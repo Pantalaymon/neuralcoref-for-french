@@ -331,7 +331,7 @@ def make_large_conll_files(conll_files_path,conll_large_files_directory,train_co
       
 if __name__ == '__main__':
     NLP = spacy.load('fr_core_news_sm')
-    path_corpus = sys.args[0]
+    path_corpus = sys.argv[0]
 
 
     CONVERT_POS = {"VER":"VERB","PRO":"PRON","PUN":"PUNCT",'PON':'PUNCT',
